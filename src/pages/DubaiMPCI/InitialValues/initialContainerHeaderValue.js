@@ -1,0 +1,18 @@
+export const initialContainerHeaderValue = () => ({
+  id: crypto.randomUUID(),
+  containerCodeHeader: "",
+  containerIdHeader: "",
+  containerNoHeader: "",
+  containerStatusHeader: "",
+  shipperSealHeader: "",
+  shipperSealTypeHeader: "",
+  carrierSealHeader: "",
+  carrierSealTypeHeader: "",
+  customsSealHeader: "",
+  customsSealTypeHeader: "",
+  sealingPartyNameHeader: "",
+  reeferCargoHeader: false,
+  temperatureHeader: "",
+  unitCodeHeader: "",
+  dangerousGoodsHeader: false,
+});
